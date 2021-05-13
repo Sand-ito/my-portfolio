@@ -17,12 +17,33 @@ main {
 article {
     width: 50%;
     height: 700px;
+    padding: 8px;
     display: inline-block;
     text-align: start;
     border: solid black;
 }
 
+.about-me {
+    font-size: 80px;
+    margin: 0;
+    padding: 16px;
+}
+
 nav {
-    float: right;
+    position: absolute;
+    width: 900px;
+    height: 700px;
+    display: inline-block;
     border: solid black;
+}
+
+.pull-tab{
+    border: solid black;
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 80px;
+    padding: 4px;
+    transform: translateY(300%) translateX(-70%) rotate(-90deg);
 }
