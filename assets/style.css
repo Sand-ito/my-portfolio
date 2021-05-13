@@ -1,0 +1,28 @@
+*{
+    font-family: monospace;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    border: solid black;
+}
+
+main {
+    margin: 0 auto;
+    justify-content: right;
+    border: solid black;
+}
+
+article {
+    width: 50%;
+    height: 700px;
+    display: inline-block;
+    text-align: start;
+    border: solid black;
+}
+
+nav {
+    float: right;
+    border: solid black;
+}
