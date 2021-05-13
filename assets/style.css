@@ -5,7 +5,8 @@
 
 body {
     font-family: monospace;
-    border: solid black;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 header, 
@@ -34,7 +35,6 @@ article {
     padding: 8px;
     display: inline-block;
     text-align: start;
-    border: solid black;
 }
 
 .about-me {
@@ -52,8 +52,8 @@ nav {
     padding: 0px 50px;
     height: 700px;
     display: inline-block;
-    border: solid black;
     box-sizing: border-box;
+    border: solid black;
 }
 
 .pull-tab{
@@ -81,7 +81,7 @@ nav {
     box-sizing: border-box;
     height: 300px;
     width: 500px;
-    margin: 16px 50px;
+    margin: 8px 50px;
     display: inline-block;
 }
 
