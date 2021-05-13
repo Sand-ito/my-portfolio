@@ -27,6 +27,7 @@ main {
     margin: 0 auto;
     justify-content: right;
     border: solid black;
+    border-left: none;
 }
 
 article {
@@ -54,6 +55,9 @@ nav {
     display: inline-block;
     box-sizing: border-box;
     border: solid black;
+    background-color: white;
+    border-top: none;
+    border-bottom: none;
 }
 
 .pull-tab{
@@ -69,6 +73,12 @@ nav {
     padding: 6px;
     transform: translateY(150%) translateX(-121.5%) rotate(-90deg);
 }
+
+nav:hover {
+    transform: translateX(-50%);
+    transition: transform 0.3s ease-in-out;
+}
+
 
 .container {
     box-sizing: border-box;
