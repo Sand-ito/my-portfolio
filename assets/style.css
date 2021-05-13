@@ -8,6 +8,20 @@ body {
     border: solid black;
 }
 
+header, 
+footer {
+    text-align: center;
+}
+
+h1 {
+    font-size: 80px;
+    margin: 0 auto;
+}
+
+h2 {
+    margin: 0 auto;
+}
+
 main {
     margin: 0 auto;
     justify-content: right;
@@ -29,9 +43,13 @@ article {
     padding: 16px;
 }
 
+.me-text{
+    font-size: 18px;
+}
+
 nav {
     position: absolute;
-    width: 900px;
+    width: 9999px;
     height: 700px;
     display: inline-block;
     border: solid black;
@@ -39,11 +57,27 @@ nav {
 
 .pull-tab{
     border: solid black;
+    border-bottom: none;
     background-color: white;
     justify-content: center;
     text-align: center;
     align-items: center;
     width: 80px;
-    padding: 4px;
-    transform: translateY(300%) translateX(-70%) rotate(-90deg);
+    padding: 6px;
+    transform: translateY(200%) translateX(-70.5%) rotate(-90deg);
+}
+
+h4 {
+    margin: 4px auto;
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li{
+    display: inline-block;
+    font-size: 18px;
+    margin: 0 16px;
 }
