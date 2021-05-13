@@ -29,7 +29,7 @@ main {
 }
 
 article {
-    width: 50%;
+    width: 66.66%;
     height: 700px;
     padding: 8px;
     display: inline-block;
@@ -49,22 +49,40 @@ article {
 
 nav {
     position: absolute;
-    width: 9999px;
+    padding: 0px 50px;
     height: 700px;
     display: inline-block;
     border: solid black;
+    box-sizing: border-box;
 }
 
 .pull-tab{
     border: solid black;
+    font-size: 24px;
     border-bottom: none;
     background-color: white;
     justify-content: center;
     text-align: center;
     align-items: center;
-    width: 80px;
+    margin: 0;
+    width: 100px;
     padding: 6px;
-    transform: translateY(200%) translateX(-70.5%) rotate(-90deg);
+    transform: translateY(150%) translateX(-121.5%) rotate(-90deg);
+}
+
+.container {
+    box-sizing: border-box;
+    height: 648px;
+    width: 1300px;
+}
+
+.box{
+    border: solid black;
+    box-sizing: border-box;
+    height: 300px;
+    width: 500px;
+    margin: 16px 50px;
+    display: inline-block;
 }
 
 h4 {
