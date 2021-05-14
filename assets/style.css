@@ -1,13 +1,14 @@
 *{
     font-family: monospace;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 :root {
 --bgc: #EEEEEE;
 --Black: #363636;
 --lghtblue: #17AAAA;
---bord:  #F63F3A;
+--bord:  #5E1C9F;
 }
 
 body {
@@ -45,7 +46,7 @@ main {
 
 article {
     width: 66.66%;
-    height: 700px;
+    height: 800px;
     padding: 8px;
     display: inline-block;
     text-align: start;
@@ -67,7 +68,7 @@ nav {
     background-color: var(--bgc);
     position: absolute;
     padding: 0px 50px;
-    height: 700px;
+    height: 800px;
     display: inline-block;
     box-sizing: border-box;
     border: solid ;
@@ -104,7 +105,6 @@ nav:hover {
     width: 1300px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
 }
 
 .box1, .box2, .box3, .box4 {
@@ -113,7 +113,7 @@ nav:hover {
     box-sizing: border-box;
     height: 300px;
     width: 500px;
-    margin: 8px 50px;
+    margin: 28px 50px;
     display: block;
     background-repeat: no-repeat;
     background-size: cover;
@@ -137,13 +137,11 @@ nav:hover {
     background-image: url(../images/WiP.jpg);
 }
 
-nav a {
+a div {
     font-size: 16px;
-    background-color: transparent;
-}
-
-.off-screen {
-    display: none;
+    padding: 2px 4px;
+    background-color: var(--Black);
+    color: var(--bgc);
 }
 
 h4 {
