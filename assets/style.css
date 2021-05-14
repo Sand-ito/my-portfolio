@@ -1,9 +1,11 @@
+
 *{
     font-family: monospace;
     box-sizing: border-box;
     text-decoration: none;
 }
 
+/* My color scheme */
 :root {
 --bgc: #EEEEEE;
 --Black: #363636;
@@ -20,6 +22,7 @@ body {
     width: 100%;
 }
 
+/* Styling to header with children h1 and h2 */
 header, 
 footer {
     text-align: center;
@@ -43,6 +46,7 @@ main {
     border-left: none;
 }
 
+/* Styleing to Article with children classes .about-me and .me-text */
 article {
     width: 66.66%;
     height: 800px;
@@ -63,6 +67,7 @@ article {
     font-size: 18px;
 }
 
+/* Styleing to Nav bar with children .pull-tab and .container. */
 nav {
     border: solid ;
     border-color: var(--bord);
@@ -114,6 +119,7 @@ a:hover {
     flex-wrap: wrap;
 }
 
+/* Box 1-4, children of .container */
 .box1, .box2, .box3, .box4 {
     border-color: var(--Black);
     border: solid;
@@ -142,6 +148,7 @@ a:hover {
     background-image: url(../images/WiP.jpg);
 }
 
+/* Child of box 1-4 */
 a div {
     background-color: var(--Black);
     color: var(--bgc);
@@ -149,6 +156,7 @@ a div {
     padding: 2px 4px;
 }
 
+/* Footer and contact me list */
 h4 {
     color: var(--Black);
     margin: 4px auto;
@@ -165,4 +173,28 @@ ul li{
     display: inline-block;
     font-size: 18px;
     margin: 0 8px 8px 16px;
+}
+
+
+/* my attempt at responsive display. I have some ideas to make it better. */
+@media only screen and (max-width: 600px){
+    main{
+        width: 80%;
+    }
+
+    nav{
+        width: 25%;
+    }
+
+    .container{
+        max-width: 25%;
+    }
+
+    .box1, .box2, .box3, .box4{
+        margin: 0;
+        padding: 0;
+        height: 10%;
+        width: 50%;
+    }
+
 }
