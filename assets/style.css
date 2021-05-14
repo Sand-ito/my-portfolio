@@ -1,16 +1,17 @@
 *{
     font-family: monospace;
     box-sizing: border-box;
-    background-color: #EEEEEE
 }
 
 :root {
+--bgc: #EEEEEE;
 --Black: #363636;
 --lghtblue: #17AAAA;
 --bord:  #F63F3A;
 }
 
 body {
+    background-color: var(--bgc);
     font-family: monospace;
     margin-left: 0px;
     margin-right: 0px;
@@ -63,6 +64,7 @@ article {
 }
 
 nav {
+    background-color: var(--bgc);
     position: absolute;
     padding: 0px 50px;
     height: 700px;
@@ -72,9 +74,11 @@ nav {
     border-color: var(--bord);
     border-top: none;
     border-bottom: none;
+    transition: transform 0.3s ease-in-out;
 }
 
 .pull-tab{
+    background-color: var(--bgc);
     border: solid;
     border-color: var(--bord);
     font-size: 24px;
@@ -91,7 +95,6 @@ nav {
 
 nav:hover {
     transform: translateX(-50%);
-    transition: transform 0.3s ease-in-out;
 }
 
 
@@ -99,16 +102,44 @@ nav:hover {
     box-sizing: border-box;
     height: 648px;
     width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.box{
+.box1, .box2, .box3, .box4 {
     border: solid;
-    border-color: var(--bord);
+    border-color: var(--Black);
     box-sizing: border-box;
     height: 300px;
     width: 500px;
     margin: 8px 50px;
-    display: inline-block;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+}
+
+.box1 {
+    background-image: url(../images/proj-01.jpg);
+}
+
+.box2 {
+    background-image: url(../images/semantic-proj.jpg);
+}
+
+.box3 {
+    background-image: url(../images/proj-02.jpg);
+}
+
+.box4 {
+    background-image: url(../images/WiP.jpg);
+}
+
+nav a {
+    font-size: 16px;
+    background-color: transparent;
 }
 
 .off-screen {
