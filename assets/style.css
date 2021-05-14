@@ -26,21 +26,20 @@ footer {
 }
 
 h1 {
+    color: var(--Black);
     font-size: 80px;
     margin: 0 auto;
-    color: var(--Black);
 }
 
 h2 {
-    margin: 0 auto;
     color: var(--lghtblue);
+    margin: 0 auto;
 }
 
 main {
-    margin: 0 auto;
-    justify-content: right;
     border: solid;
     border-color: var(--bord);
+    margin: 0 auto;
     border-left: none;
 }
 
@@ -53,35 +52,35 @@ article {
 }
 
 .about-me {
+    color: var(--Black);
     font-size: 80px;
     margin: 0;
     padding: 16px;
-    color: var(--Black);
 }
 
 .me-text{
-    font-size: 18px;
     color: var(--lghtblue);
+    font-size: 18px;
 }
 
 nav {
+    border: solid ;
+    border-color: var(--bord);
     background-color: var(--bgc);
     position: absolute;
     padding: 0px 50px;
     height: 800px;
     display: inline-block;
     box-sizing: border-box;
-    border: solid ;
-    border-color: var(--bord);
     border-top: none;
     border-bottom: none;
     transition: transform 0.3s ease-in-out;
 }
 
 .pull-tab{
-    background-color: var(--bgc);
     border: solid;
     border-color: var(--bord);
+    background-color: var(--bgc);
     font-size: 24px;
     border-bottom: none;
     justify-content: center;
@@ -98,9 +97,17 @@ nav:hover {
     transform: translateX(-50%);
 }
 
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: var(--lghtblue)
+}
+a:hover {
+    color: var(--bord);
+}
 
 .container {
-    box-sizing: border-box;
     height: 648px;
     width: 1300px;
     display: flex;
@@ -108,13 +115,11 @@ nav:hover {
 }
 
 .box1, .box2, .box3, .box4 {
-    border: solid;
     border-color: var(--Black);
-    box-sizing: border-box;
+    border: solid;
     height: 300px;
     width: 500px;
     margin: 28px 50px;
-    display: block;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -138,25 +143,26 @@ nav:hover {
 }
 
 a div {
-    font-size: 16px;
-    padding: 2px 4px;
     background-color: var(--Black);
     color: var(--bgc);
+    font-size: 16px;
+    padding: 2px 4px;
 }
 
 h4 {
+    color: var(--Black);
     margin: 4px auto;
     font-size: 24px;
-    color: var(--Black);
 }
 
 ul {
     list-style-type: none;
+    padding: 0;
 }
 
 ul li{
+    color: var(--lghtblue);
     display: inline-block;
     font-size: 18px;
-    margin: 0 16px;
-    color: var(--lghtblue);
+    margin: 0 8px 8px 16px;
 }
