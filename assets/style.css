@@ -1,5 +1,5 @@
 *{
-    font-family: monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
     text-decoration: none;
 }
@@ -42,6 +42,10 @@ main {
     border: solid;
     border-color: var(--bord);
     margin: 0 auto;
+}
+
+.resume {
+    text-decoration: underline;
 }
 
 /* Styleing to Article with children classes .about-me and .me-text */
@@ -87,12 +91,11 @@ a:hover {
     flex-wrap: wrap;
 }
 
-/* Box 1-4, children of .container */
+/* Box 1-3, children of .container */
 .box1, .box2, .box3 {
     border-color: var(--Black);
     border: solid;
     max-height: 300px;
-    /* max-width: 500px; */
     min-height: 200px;
     margin: 8px;
     background-repeat: no-repeat;
@@ -102,15 +105,15 @@ a:hover {
 }
 
 .box1 {
-    background-image: url(../images/proj-01.jpg);
+    background-image: url(../images/password-gen.jpg);
 }
 
 .box2 {
-    background-image: url(../images/semantic-proj.jpg);
+    background-image: url(../images/day-planner.jpg);
 }
 
 .box3 {
-    background-image: url(../images/proj-02.jpg);
+    background-image: url(../images/rmg-proj.jpg);
 }
 
 
@@ -123,6 +126,10 @@ a div {
 }
 
 /* Footer and contact me list */
+footer{
+    background-color: var(--bgc);
+}
+
 .h4 {
     color: var(--Black);
     margin: 4px auto;
