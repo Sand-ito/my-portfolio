@@ -1,11 +1,9 @@
 # my-portfolio
-Hi! My name is Josh Livak. This is my portfolio. When I first began, I decided to make a wireframe. My main goal was to make something unique.
+Hi! My name is Josh Livak. This is my portfolio.
 
-![test](./images/wireframe.png)
+[Here is a link to my deployed website, check it out!](https://sand-ito.github.io/my-portfolio/)
 
-This was the design I decided to go with. Half of the display is a simple paragraph about me. The other half is a preview of my works. So that when you hover your cursor on the "My Works" section, the entirety of my works occupies the screen. This would allow the user to have their focus on either the "About Me" or "My Works" sections. It also allows the display to stay simple and clean.
-
-My main challenge was to create a plane that extends beyond the display while holding images that are links to my other projects. The next challenge was making that plane dynamic, with my goal being that it can move from its home position, to a displaying position, and return home. While the responsive display leaves much to be desired I am proud of the outcome of this project. I plan to keep improving and adding to my portfolio, both with content and quailty of code.
+I decided to go for a very simple clean look. I want employers on a desktop to be able to veiw the entire page when they open it. The site also made to be compatible for mobile users. Aside from that, in my opinion the main point of a portfolio is to house my works. I dont want my portfolio to out shine my projects I just wanted something that looks clean and gets the job done. To put it in more cheesy terms; like a cracker on a charcuterie board, my porfolio delivers the flavor.
 
 Thank you for your time to look through my portfolio on both the front and back ends,
 
